@@ -1,0 +1,16 @@
+{
+    "name": "arko/queue-manager-bundle",
+    "description": "Allows you to create and process callables queues using singleton service",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Artyom Kozhemyakin",
+            "email": "xenus.t@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "arko/queue-manager" : "dev-master"
+    }
+}
