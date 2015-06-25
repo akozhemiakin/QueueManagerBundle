@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Arko\\QueueManagerBundle": ""
+            "Arko\\QueueManagerBundle\\": ""
         }
     }
 }
