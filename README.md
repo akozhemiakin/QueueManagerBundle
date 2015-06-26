@@ -17,7 +17,7 @@ composer.phar require arko/queue-manager-bundle "dev-master"
 public function registerBundle() {
     $bundles = array(
         // ...
-        new Arko/QueueManagerBundle/ArkoQueueManagerBundle(),
+        new Arko\QueueManagerBundle\ArkoQueueManagerBundle(),
     );
 }
 ```
