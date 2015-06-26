@@ -34,7 +34,7 @@ Or, as usual, you can inject it in your own service definitions using its id: **
 
 From now you can use it to add different actions to the named queues:
 
-```
+``` php
 $queueManager->add(function() {
     // Do something here
 }, 'queue_name');
@@ -49,7 +49,7 @@ As a first argument to the queue manager add method you can provide any php call
 
 Later you will be able to process the queue like this:
 
-```
+``` php
 $queueManager->process('queue_name');
 ```
 
